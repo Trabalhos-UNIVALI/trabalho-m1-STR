@@ -18,7 +18,7 @@ struct Pump {
 
 //os sensore são inicializados sem problema, sendo os sensores int inicializados em 0 eo sensor bool inicializado em false
 void initialize_pumps(struct Pump pumps[PUMP_NUM]){
-    for(int i=0;i<3; i++){
+    for(int i=0;i<PUMP_NUM; i++){
         pumps[i].sensor0=false;
         pumps[i].sensor400=0;
         pumps[i].sensor800=0;
@@ -41,6 +41,23 @@ void insere_falha(struct Pump pumps[PUMP_NUM]){
     }
 }
 
+void localiza_falha(struct Pump pumps[PUMP_NUM]){
+    for(int i=0; i<PUMP_NUM; i++){
+        if(pumps[i].sensor0==true){
+            printf("Falha detectada na bomba: %d\n", i);
+        }
+        else if(pumps[i].sensor400 == 1){
+            printf("Falha detectada no sensor de 400m da bomba: %d\n", i);
+        }
+        else if(pumps[i].sensor800 == 1){
+            printf("Falha detectada no sensor de 800m da bomba: %d\n", i);
+        }
+        else if(pumps[i].sensor1200 == 1){
+            printf("Falha detectada no sensor de 1200m da bomba: %d\n", i);
+        }
+    }
+}
+
 void display() {}
 
 void menu() {
@@ -52,6 +69,6 @@ int main() {
 
     initialize_pumps(pumps);
     insere_falha(pumps);
-
+    localiza_falha(pumps);
     return 0;
 }
