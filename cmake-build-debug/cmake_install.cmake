@@ -1,4 +1,4 @@
-# Install script for directory: /home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1
+# Install script for directory: /home/haas/Documents/GitHub/trabalho-m1-STR
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/haas/Documents/GitHub/trabalho-m1-STR/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
