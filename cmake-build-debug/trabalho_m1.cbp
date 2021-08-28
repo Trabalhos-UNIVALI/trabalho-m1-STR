@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug"/>
+				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug"/>
+				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug"/>
+				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trabalho_m1">
-				<Option output="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/trabalho_m1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug"/>
+				<Option output="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/trabalho_m1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -50,15 +50,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 trabalho_m1"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 trabalho_m1"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="trabalho_m1/fast">
-				<Option output="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/trabalho_m1" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug"/>
+				<Option output="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/trabalho_m1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,17 +69,20 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 trabalho_m1/fast"/>
-					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 trabalho_m1/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/main.c">
+		<Unit filename="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/main.c">
 			<Option target="trabalho_m1"/>
 		</Unit>
-		<Unit filename="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1/CMakeLists.txt">
+		<Unit filename="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/utils.h">
+			<Option target="trabalho_m1"/>
+		</Unit>
+		<Unit filename="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
