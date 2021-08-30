@@ -79,9 +79,6 @@
 		<Unit filename="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/main.c">
 			<Option target="trabalho_m1"/>
 		</Unit>
-		<Unit filename="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/utils.h">
-			<Option target="trabalho_m1"/>
-		</Unit>
 		<Unit filename="/home/ian/Documents/projects/6-periodo/sistema-em-tempo-real/trabalho-m1-STR/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
