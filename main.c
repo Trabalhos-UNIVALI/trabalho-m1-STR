@@ -27,7 +27,6 @@ struct Pump {
 
 bool rand_bool() {
     time_t t;
-    srand((unsigned) time(&t));
     return rand() & 1;
 }
 
@@ -164,15 +163,13 @@ bool verify_pump(struct Pump pump) {
 }
 
 int main() {
+    srand( time(NULL) );
+    
     struct Pump pump1 = new_pump(1);
     struct Pump pump2 = new_pump(2);
     struct Pump pump3 = new_pump(3);
 
     verify_pump(pump1);
 
-
-//    initialize_pumps(pumps);
-//    insere_falha(pumps);
-//    localiza_falha(pumps);
     return 0;
 }
