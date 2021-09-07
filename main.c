@@ -32,7 +32,7 @@ bool rand_bool() {
 }
 
 double calculate_time() {
-    return ((double) (end - start)) / CLOCKS_PER_SEC;
+    return ((double) (end - start)) ;
 }
 
 //os sensore são inicializados como funcionais
@@ -81,39 +81,6 @@ double verify_400m_pipe(bool* pipe400) {
 
 
 
-
-
-//void insere_falha(struct Pump pumps[PUMP_NUM]){
-//    time_t t;
-//    srand((unsigned) time(&t)); //inicializa o gerador de números randomicos para as pumps
-//    switch(rand() % 4) { //switch randomico entre as 3 opções de erro
-//        case 0:
-//            pumps[rand() % PUMP_NUM].sensor0 = true;
-//        case 1:
-//            pumps[rand() % PUMP_NUM].sensor400 = 1;
-//        case 2:
-//            pumps[rand() % PUMP_NUM].sensor800 = 1;
-//        case 3:
-//            pumps[rand() % PUMP_NUM].sensor1200 = 1;
-//    }
-//}
-
-//void localiza_falha(struct Pump pumps[PUMP_NUM]){
-//    for(int i=0; i<PUMP_NUM; i++){
-//        if(pumps[i].sensor0==true){
-//            printf("Falha detectada na bomba: %d\n", i);
-//        }
-//        else if(pumps[i].sensor400 == 1){
-//            printf("Falha detectada no sensor de 400m da bomba: %d\n", i);
-//        }
-//        else if(pumps[i].sensor800 == 1){
-//            printf("Falha detectada no sensor de 800m da bomba: %d\n", i);
-//        }
-//        else if(pumps[i].sensor1200 == 1){
-//            printf("Falha detectada no sensor de 1200m da bomba: %d\n", i);
-//        }
-//    }
-//}
 
 void display() {}
 
