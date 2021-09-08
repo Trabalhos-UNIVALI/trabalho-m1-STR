@@ -26,7 +26,7 @@ struct Pump {
 
 bool rand_bool() {
     time_t t;
-    int val = rand() % 100; // 1% chance of getting an error
+    int val = rand() % 20; // 5% chance of getting an error
     if(val == 0) {
         return true;
     }
@@ -211,12 +211,10 @@ int main() {
     struct Pump pump2 = new_pump(2);
     struct Pump pump3 = new_pump(3);
 
-    int cont = 0;
-
     int ok1 = 1;
     int ok2 = 1;
     int ok3 = 1;
-    while(cont < 3) {
+    while(true) {
 
         if(ok1) {
             ok1 = verify_pump(pump1);
@@ -234,7 +232,6 @@ int main() {
             break;
         }
 
-        cont++;
     }
 
     return 0;
