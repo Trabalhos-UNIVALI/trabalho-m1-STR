@@ -26,7 +26,7 @@ struct Pump {
 
 bool rand_bool() {
     time_t t;
-    int val = rand() & 100; // 1% chance of getting an error
+    int val = rand() % 100; // 1% chance of getting an error
     if(val == 0) {
         return true;
     }
